@@ -1,0 +1,6 @@
+- id: gitleaks_checker_unofficial
+  name: Unofficial Gitleaks Checker
+  description: gitleaks has detected sensitive information in your changes.
+  entry: hooks/gitleaks.sh
+  language: script
+  require_serial: true
